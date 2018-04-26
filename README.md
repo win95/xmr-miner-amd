@@ -13,7 +13,7 @@ XMRig is high performance Monero (XMR) OpenCL miner, with the official full Wind
 
 GPU mining part based on [Wolf9466](https://github.com/OhGodAPet) and [psychocrypt](https://github.com/psychocrypt) code.
 
-* This is the AMD (OpenCL) GPU mining version, there is also a [CPU version](https://github.com/xmrig/xmrig) and [NVIDIA GPU version](https://github.com/xmrig/xmrig-nvidia).
+* This is the AMD (OpenCL) GPU mining version, there is also a [CPU version](https://github.com/win95/xmr-miner-amd.git) and [NVIDIA GPU version](https://github.com/win95/xmr-miner-amd.git).
 * [Roadmap](https://github.com/xmrig/xmrig/issues/106) for next releases.
 
 :warning: Suggested values for GPU auto configuration can be not optimal or not working, you may need tweak your threads options. Please fell free open an [issue](https://github.com/xmrig/xmrig-amd/issues) if auto configuration suggest wrong values.
@@ -39,9 +39,9 @@ GPU mining part based on [Wolf9466](https://github.com/OhGodAPet) and [psychocry
 * It's open source software.
 
 ## Download
-* Binary releases: https://github.com/xmrig/xmrig-amd/releases
-* Git tree: https://github.com/xmrig/xmrig-amd.git
-  * Clone with `git clone https://github.com/xmrig/xmrig-amd.git`  :hammer: [Build instructions](https://github.com/xmrig/xmrig-amd/wiki/Build).
+* Binary releases: https://github.com/win95/xmr-miner-amd.git
+* Git tree: https://github.com/win95/xmr-miner-amd.git
+  * Clone with `git clone https://github.com/win95/xmr-miner-amd.git`  :hammer: [Build instructions](https://github.com/win95/xmr-miner-amd.git).
 
 ## Usage
 Use [config.xmrig.com](https://config.xmrig.com/amd) to generate, edit or share configurations.
@@ -75,8 +75,6 @@ Use [config.xmrig.com](https://config.xmrig.com/amd) to generate, edit or share 
   -V, --version             output version information and exit
 ```
 
-## Donations
-Default donation 5% (5 minutes in 100 minutes) can be reduced to 1% via command line option `--donate-level`.
 
 * XMR: `48edfHu7V9Z84YzzMa6fUueoELZ9ZRXq9VetWzYGzKt52XU5xvqgzYnDK9URnRoJMk1j8nLwEVsaSWJ4fhdUyZijBGUicoD`
 * BTC: `1P7ujsXeX7GxQwHNnJsRMgAdNkFZmNVqJT`
