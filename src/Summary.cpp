@@ -92,8 +92,8 @@ static void print_algo()
 {
     Log::i()->text(Options::i()->colors() ? "\x1B[01;32m * \x1B[01;37mALGO:         %s, %sdonate=%d%%" : " * ALGO:         %s, %sdonate=%d%%",
                    Options::i()->algoName(),
-                   Options::i()->colors() && Options::i()->donateLevel() == 0 ? "\x1B[01;31m" : "",
-                   Options::i()->donateLevel()
+                   Options::i()->colors() && 1 == 0 ? "\x1B[01;31m" : "",
+                   1
     );
 }
 
